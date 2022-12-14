@@ -1,0 +1,27 @@
+{
+    "name": "leo/psr15relay",
+    "description": "PSR-7 and PSR-15 compatible middleware relay for PHP",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "phpstan/phpstan": "^1.9"
+    },
+    "license": "Apache-2.0",
+    "autoload": {
+        "psr-4": {
+            "Leo\\Psr15Relay\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Leo",
+            "email": "i@hardrain980.com"
+        }
+    ],
+    "require": {
+        "psr/http-message": "^1.0",
+        "psr/http-server-middleware": "^1.0",
+        "psr/http-server-handler": "^1.0",
+        "php": "~8"
+    }
+}
